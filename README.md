@@ -31,7 +31,7 @@ ggplot(patients, aes(x = Age, y = BMI, color = factor(DiabetesRisk))) +
                breaks = 0.5, color = "black") +
   scale_color_manual(values = c("blue", "red"), labels = c("No Risk", "At Risk")) +
   labs(title = "Diabetes Risk Prediction (Logistic Regression)",
-       x = "Age", y = "BMI", color = "Diabetes Risk") +
+       x = "Age", y = "BMI", color = "Diabetes Risk") 
   theme_minimal()
 # fsima
 just testing
